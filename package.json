@@ -1,0 +1,25 @@
+{
+  "name": "vuemessage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stan1812/libx-ios-message.git"
+  },
+  "keywords": [
+    "vue",
+    "toast",
+    "message",
+    "ios"
+  ],
+  "author": "stan1812",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stan1812/libx-ios-message/issues"
+  },
+  "homepage": "https://github.com/Stan1812/libx-ios-message#readme"
+}
