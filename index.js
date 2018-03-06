@@ -1,6 +1,5 @@
 var Message = {};
 var showMessage = false, // 存储toast显示状态
-    showLoad = false, // 存储loading显示状态
     messageVM = null // 存储toast vm
 
 Message.install = function (Vue, options) {
@@ -11,7 +10,9 @@ Message.install = function (Vue, options) {
     for (var property in options) {
         opt[property] = options[property];
     }
-
+    function hideMsg(){
+        this.showMessage = false
+    }
     Vue.prototype.$message = function (tips) {
 
         // var curType = type ? type : opt.defaultType; var wordWrap = opt.wordWrap ?
